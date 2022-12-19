@@ -1,0 +1,104 @@
+////*CSS*////
+body {
+    overflow-x: hidden;
+}
+
+.pgBorder {
+    width: 100%;
+    height: 100vh;
+    border-style: solid;
+    color: #274472;
+}
+
+.btn-primary, .btn-primary:visited {
+    background-color: #274472 !important;
+}
+
+.btn-primary:active {
+    background-color: #41729F !important;
+}
+
+.btn-primary:hover {
+    background-color: #41729F !important;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+
+.list-item {
+    display: grid;
+    grid-template-columns: auto 50px;
+}
+
+.add {
+    box-shadow: 2px 2px 5px 1px rgba(100,100,100,0.8);
+}
+
+/*Search mechanism*/
+* { box-sizing: border-box; }
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: 1px solid #41729F !important;
+  background-color: #f1f1f1;
+  padding: 5px;
+  font-size: 12px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+input[type="number"] {
+    -moz-appearance: number-input;
+}
+
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #274472;
+    border: solid 5px #5885AF;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto 60% auto;
+}
+
+#ans {
+    margin-right: 20px;
+    height: 35px;
+}

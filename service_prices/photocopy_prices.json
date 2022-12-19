@@ -1,0 +1,8 @@
+[{"name":"Photocopy (Black) A4", "price": 0.30},
+ {"name":"Photocopy (Black front n back) A4", "price": 0.50},
+ {"name":"Photocopy (color) A4", "price": 1.00},
+ {"name":"Photocopy (black) A3", "price": 0.80},
+ {"name":"Photocopy (black front n back) A4", "price": 1.60},
+ {"name":"Photocopy (color) A3", "price": 2.00},
+ {"name":"Photocopy bounded book", "price": 0.30},
+ {"name":"Photocopy bounded book Front n Back", "price": 0.60}]

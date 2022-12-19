@@ -1,0 +1,14 @@
+{
+  "name": "account_application",
+  "version": "1.0.0",
+  "description": "simple account for small businesses",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Nchor Michael",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^15.1.2"
+  }
+}
